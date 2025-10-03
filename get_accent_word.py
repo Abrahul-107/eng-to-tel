@@ -1,8 +1,14 @@
 import requests
 import json
+from load_dotenv import load_dotenv
+load_dotenv()
+import os
+
 
 # --- CONFIGURATION ---
-API_KEY = "tgp_v1_fBon9onW9xD6WIFEPguFZAt7qcJk7LIW4WtPEMMaWps"  
+API_KEY = os.getenv("API_KEY")  # Load from environment variable
+if not API_KEY:
+    raise ValueError("API_KEY not found in environment variables. Please set it in the .env file.") 
 MODEL = "meta-llama/Llama-3-70b-chat-hf"
 
 # --- FUNCTION TO CALL LLaMA 70B ---

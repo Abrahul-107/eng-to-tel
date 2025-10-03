@@ -5,6 +5,9 @@ import logging
 from datetime import datetime
 import os
 from pathlib import Path
+from load_dotenv import load_dotenv
+load_dotenv()
+
 
 # --- LOGGING CONFIGURATION ---
 # Create logs directory if it doesn't exist
@@ -42,8 +45,12 @@ logger.info("="*80)
 logger.info("Application started")
 logger.info("="*80)
 
-# --- CONFIGURATION ---
-API_KEY = "tgp_v1_fBon9onW9xD6WIFEPguFZAt7qcJk7LIW4WtPEMMaWps"
+# --- CONFIGURATION --- 
+API_KEY = os.getenv("API_KEY")  # Load from environment variable
+if not API_KEY:
+    logger.error("API_KEY not found in environment variables. Please set it in the .env file.")
+    st.error("API_KEY not found. Please contact the administrator.")
+    st.stop()
 MODEL = "meta-llama/Llama-3-70b-chat-hf"
 
 logger.info(f"Configuration loaded - Model: {MODEL}")
@@ -95,7 +102,9 @@ Now process the following word: '{word}'
         "prompt": prompt,
         "max_tokens": 200,
         "temperature": 0
-    }
+    }       
+
+
 
     logger.debug(f"API Request parameters - max_tokens: {data['max_tokens']}, temperature: {data['temperature']}")
 
