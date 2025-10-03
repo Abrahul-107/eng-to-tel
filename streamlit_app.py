@@ -5,7 +5,7 @@ import logging
 from datetime import datetime
 import os
 from pathlib import Path
-from load_dotenv import load_dotenv
+from dotenv import load_dotenv
 load_dotenv()
 
 
