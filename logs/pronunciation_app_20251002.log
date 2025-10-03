@@ -1,0 +1,258 @@
+2025-10-02 18:45:06 | INFO     | <module>:41 | ================================================================================
+2025-10-02 18:45:06 | INFO     | <module>:42 | Application started
+2025-10-02 18:45:06 | INFO     | <module>:43 | ================================================================================
+2025-10-02 18:45:06 | INFO     | <module>:49 | Configuration loaded - Model: meta-llama/Llama-3-70b-chat-hf
+2025-10-02 18:45:06 | INFO     | <module>:152 | Initializing Streamlit UI
+2025-10-02 18:45:06 | DEBUG    | <module>:161 | Current input in text area: 'toilet, computer, water'
+2025-10-02 18:45:06 | DEBUG    | <module>:257 | UI rendering complete
+2025-10-02 18:45:06 | INFO     | <module>:258 | Waiting for user interaction...
+2025-10-02 18:45:17 | INFO     | <module>:41 | ================================================================================
+2025-10-02 18:45:17 | INFO     | <module>:42 | Application started
+2025-10-02 18:45:17 | INFO     | <module>:43 | ================================================================================
+2025-10-02 18:45:17 | INFO     | <module>:49 | Configuration loaded - Model: meta-llama/Llama-3-70b-chat-hf
+2025-10-02 18:45:17 | INFO     | <module>:152 | Initializing Streamlit UI
+2025-10-02 18:45:17 | DEBUG    | <module>:161 | Current input in text area: 'toilet'
+2025-10-02 18:45:17 | DEBUG    | <module>:257 | UI rendering complete
+2025-10-02 18:45:17 | INFO     | <module>:258 | Waiting for user interaction...
+2025-10-02 18:45:17 | INFO     | <module>:41 | ================================================================================
+2025-10-02 18:45:17 | INFO     | <module>:42 | Application started
+2025-10-02 18:45:17 | INFO     | <module>:43 | ================================================================================
+2025-10-02 18:45:17 | INFO     | <module>:49 | Configuration loaded - Model: meta-llama/Llama-3-70b-chat-hf
+2025-10-02 18:45:17 | INFO     | <module>:152 | Initializing Streamlit UI
+2025-10-02 18:45:17 | DEBUG    | <module>:161 | Current input in text area: 'toilet'
+2025-10-02 18:45:17 | INFO     | <module>:164 | Convert button clicked
+2025-10-02 18:45:17 | INFO     | <module>:165 | Raw input received: 'toilet'
+2025-10-02 18:45:17 | INFO     | <module>:168 | Parsed 1 words: ['toilet']
+2025-10-02 18:45:17 | INFO     | <module>:178 | Starting batch processing of 1 words
+2025-10-02 18:45:17 | INFO     | <module>:183 | Processing word 1/1: 'toilet'
+2025-10-02 18:45:17 | INFO     | get_pronunciation:62 | Processing word: 'toilet'
+2025-10-02 18:45:17 | DEBUG    | get_pronunciation:84 | Prompt created for word 'toilet' - Length: 685 characters
+2025-10-02 18:45:17 | DEBUG    | get_pronunciation:100 | API Request parameters - max_tokens: 200, temperature: 0
+2025-10-02 18:45:17 | INFO     | get_pronunciation:103 | Sending API request for word: 'toilet'
+2025-10-02 18:45:19 | INFO     | get_pronunciation:106 | API response received - Status code: 401
+2025-10-02 18:45:19 | DEBUG    | get_pronunciation:107 | Response headers: {'Date': 'Thu, 02 Oct 2025 13:15:19 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '265', 'Connection': 'keep-alive', 'Server': 'cloudflare', 'CF-Ray': '988477bfff63d9c7-BOM', 'CF-Cache-Status': 'DYNAMIC', 'Access-Control-Allow-Origin': '*', 'ETag': 'W/"109-dmrHIfiiYzK7pliWuMTxbUdWSn0"', 'Strict-Transport-Security': 'max-age=15552000; includeSubDomains', 'x-amzn-trace-id': 'a037ab18-3efd-42e2-a5a3-ca408f6b1366-noamzn', 'x-api-received': '2025-10-02T13:15:18.747Z', 'x-request-id': 'oDa7rBs-62bZhn-988477bfff63d9c7', 'Vary': 'Accept-Encoding', 'alt-svc': 'h3=":443"; ma=86400'}
+2025-10-02 18:45:19 | ERROR    | get_pronunciation:133 | API request failed with status 401
+2025-10-02 18:45:19 | ERROR    | get_pronunciation:134 | Error details: {
+  "id": "oDa7rBs-62bZhn-988477bfff63d9c7",
+  "error": {
+    "message": "Invalid API key provided. You can find your API key at https://api.together.ai/settings/api-keys.",
+    "type": "invalid_request_error",
+    "param": null,
+    "code": "invalid_api_key"
+  }
+}
+2025-10-02 18:45:19 | WARNING  | <module>:191 | Failed conversion for word 'toilet': API request failed with status 401
+2025-10-02 18:45:19 | INFO     | <module>:208 | Batch processing completed in 2.21 seconds
+2025-10-02 18:45:19 | INFO     | <module>:209 | Results - Successful: 0, Failed: 1
+2025-10-02 18:45:19 | DEBUG    | <module>:213 | Displaying results to user
+2025-10-02 18:45:19 | INFO     | <module>:227 | Generated JSON output - Size: 395 bytes
+2025-10-02 18:45:19 | INFO     | <module>:235 | Download button rendered for user
+2025-10-02 18:45:19 | DEBUG    | <module>:257 | UI rendering complete
+2025-10-02 18:45:19 | INFO     | <module>:258 | Waiting for user interaction...
+2025-10-02 18:46:01 | INFO     | <module>:41 | ================================================================================
+2025-10-02 18:46:01 | INFO     | <module>:42 | Application started
+2025-10-02 18:46:01 | INFO     | <module>:43 | ================================================================================
+2025-10-02 18:46:01 | INFO     | <module>:49 | Configuration loaded - Model: meta-llama/Llama-3-70b-chat-hf
+2025-10-02 18:46:01 | INFO     | <module>:152 | Initializing Streamlit UI
+2025-10-02 18:46:01 | DEBUG    | <module>:161 | Current input in text area: 'toilet'
+2025-10-02 18:46:01 | INFO     | <module>:164 | Convert button clicked
+2025-10-02 18:46:01 | INFO     | <module>:165 | Raw input received: 'toilet'
+2025-10-02 18:46:01 | INFO     | <module>:168 | Parsed 1 words: ['toilet']
+2025-10-02 18:46:01 | INFO     | <module>:178 | Starting batch processing of 1 words
+2025-10-02 18:46:01 | INFO     | <module>:183 | Processing word 1/1: 'toilet'
+2025-10-02 18:46:01 | INFO     | get_pronunciation:62 | Processing word: 'toilet'
+2025-10-02 18:46:01 | DEBUG    | get_pronunciation:84 | Prompt created for word 'toilet' - Length: 685 characters
+2025-10-02 18:46:01 | DEBUG    | get_pronunciation:100 | API Request parameters - max_tokens: 200, temperature: 0
+2025-10-02 18:46:01 | INFO     | get_pronunciation:103 | Sending API request for word: 'toilet'
+2025-10-02 18:46:03 | INFO     | get_pronunciation:106 | API response received - Status code: 200
+2025-10-02 18:46:03 | DEBUG    | get_pronunciation:107 | Response headers: {'Date': 'Thu, 02 Oct 2025 13:16:03 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Content-Encoding': 'gzip', 'CF-Ray': '988478ce2b3087fe-HYD', 'CF-Cache-Status': 'DYNAMIC', 'Retry-After': '2', 'Access-Control-Allow-Origin': '*', 'ETag': 'W/"23e-j+eY29cOIr/HESYanb9HPTabqjY"', 'Strict-Transport-Security': 'max-age=15552000; includeSubDomains', 'x-amzn-trace-id': 'ad34821d-acb9-4de9-be19-bac100f600d2-noamzn', 'x-api-call-end': '2025-10-02T13:16:03.163Z', 'x-api-call-start': '2025-10-02T13:16:02.606Z', 'x-api-received': '2025-10-02T13:16:02.599Z', 'x-inference-version': 'v2', 'x-ratelimit': 'false', 'x-ratelimit-limit': '10', 'x-ratelimit-limit-tokens': '3000', 'x-ratelimit-remaining': '19', 'x-ratelimit-remaining-tokens': '3000', 'x-ratelimit-reset': '2', 'x-request-id': 'oDa85Dx-62bZhn-988478ce2b3087fe', 'Vary': 'Accept-Encoding', 'Server': 'cloudflare', 'alt-svc': 'h3=":443"; ma=86400'}
+2025-10-02 18:46:03 | DEBUG    | get_pronunciation:111 | Raw API response: {
+  "id": "oDa85Dx-62bZhn-988478ce2b3087fe",
+  "object": "text.completion",
+  "created": 1759410962,
+  "model": "meta-llama/Llama-3-70b-chat-hf",
+  "prompt": [],
+  "choices": [
+    {
+      "text": "```\n{\n  \"word\": \"toilet\",\n  \"pronunciation\": \"TOY lit\",\n  \"pronunciation_telugu\": \"\u0c1f\u0c3e\u0c2f\u0c3f \u0c32\u0c3f\u0c1f\u0c4d\"\n}\n```",
+      "finish_reason": "stop",
+      "seed": 12596767298799983000,
+      "logprobs": null,
+      "index": 0
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 171,
+    "completion_tokens": 49,
+    "total_tokens": 220,
+    "cached_tokens": 0
+  }
+}
+2025-10-02 18:46:03 | DEBUG    | get_pronunciation:114 | Extracted output text: ```
+{
+  "word": "toilet",
+  "pronunciation": "TOY lit",
+  "pronunciation_telugu": "టాయి లిట్"
+}
+```
+2025-10-02 18:46:03 | DEBUG    | get_pronunciation:117 | Cleaned text: {
+  "word": "toilet",
+  "pronunciation": "TOY lit",
+  "pronunciation_telugu": "టాయి లిట్"
+}
+2025-10-02 18:46:03 | INFO     | get_pronunciation:121 | Successfully parsed JSON for word 'toilet'
+2025-10-02 18:46:03 | DEBUG    | get_pronunciation:122 | Parsed result: {"word": "toilet", "pronunciation": "TOY lit", "pronunciation_telugu": "టాయి లిట్"}
+2025-10-02 18:46:03 | INFO     | <module>:194 | Successful conversion for word 'toilet'
+2025-10-02 18:46:03 | INFO     | <module>:208 | Batch processing completed in 1.77 seconds
+2025-10-02 18:46:03 | INFO     | <module>:209 | Results - Successful: 1, Failed: 0
+2025-10-02 18:46:03 | DEBUG    | <module>:213 | Displaying results to user
+2025-10-02 18:46:03 | INFO     | <module>:227 | Generated JSON output - Size: 105 bytes
+2025-10-02 18:46:03 | INFO     | <module>:235 | Download button rendered for user
+2025-10-02 18:46:03 | DEBUG    | <module>:257 | UI rendering complete
+2025-10-02 18:46:03 | INFO     | <module>:258 | Waiting for user interaction...
+2025-10-02 18:46:14 | INFO     | <module>:41 | ================================================================================
+2025-10-02 18:46:14 | INFO     | <module>:42 | Application started
+2025-10-02 18:46:14 | INFO     | <module>:43 | ================================================================================
+2025-10-02 18:46:14 | INFO     | <module>:49 | Configuration loaded - Model: meta-llama/Llama-3-70b-chat-hf
+2025-10-02 18:46:14 | INFO     | <module>:152 | Initializing Streamlit UI
+2025-10-02 18:46:14 | DEBUG    | <module>:161 | Current input in text area: 'toilet'
+2025-10-02 18:46:14 | DEBUG    | <module>:257 | UI rendering complete
+2025-10-02 18:46:14 | INFO     | <module>:258 | Waiting for user interaction...
+2025-10-02 18:46:33 | INFO     | <module>:41 | ================================================================================
+2025-10-02 18:46:33 | INFO     | <module>:42 | Application started
+2025-10-02 18:46:33 | INFO     | <module>:43 | ================================================================================
+2025-10-02 18:46:33 | INFO     | <module>:49 | Configuration loaded - Model: meta-llama/Llama-3-70b-chat-hf
+2025-10-02 18:46:33 | INFO     | <module>:152 | Initializing Streamlit UI
+2025-10-02 18:46:33 | DEBUG    | <module>:161 | Current input in text area: 'Table'
+2025-10-02 18:46:33 | DEBUG    | <module>:257 | UI rendering complete
+2025-10-02 18:46:33 | INFO     | <module>:258 | Waiting for user interaction...
+2025-10-02 18:46:33 | INFO     | <module>:41 | ================================================================================
+2025-10-02 18:46:33 | INFO     | <module>:42 | Application started
+2025-10-02 18:46:33 | INFO     | <module>:43 | ================================================================================
+2025-10-02 18:46:33 | INFO     | <module>:49 | Configuration loaded - Model: meta-llama/Llama-3-70b-chat-hf
+2025-10-02 18:46:33 | INFO     | <module>:152 | Initializing Streamlit UI
+2025-10-02 18:46:33 | DEBUG    | <module>:161 | Current input in text area: 'Table'
+2025-10-02 18:46:33 | INFO     | <module>:164 | Convert button clicked
+2025-10-02 18:46:33 | INFO     | <module>:165 | Raw input received: 'Table'
+2025-10-02 18:46:33 | INFO     | <module>:168 | Parsed 1 words: ['Table']
+2025-10-02 18:46:33 | INFO     | <module>:178 | Starting batch processing of 1 words
+2025-10-02 18:46:33 | INFO     | <module>:183 | Processing word 1/1: 'Table'
+2025-10-02 18:46:33 | INFO     | get_pronunciation:62 | Processing word: 'Table'
+2025-10-02 18:46:33 | DEBUG    | get_pronunciation:84 | Prompt created for word 'Table' - Length: 684 characters
+2025-10-02 18:46:33 | DEBUG    | get_pronunciation:100 | API Request parameters - max_tokens: 200, temperature: 0
+2025-10-02 18:46:33 | INFO     | get_pronunciation:103 | Sending API request for word: 'Table'
+2025-10-02 18:46:35 | INFO     | get_pronunciation:106 | API response received - Status code: 200
+2025-10-02 18:46:35 | DEBUG    | get_pronunciation:107 | Response headers: {'Date': 'Thu, 02 Oct 2025 13:16:35 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Content-Encoding': 'gzip', 'CF-Ray': '988479999cfa1bd7-BOM', 'CF-Cache-Status': 'DYNAMIC', 'Retry-After': '2', 'Access-Control-Allow-Origin': '*', 'ETag': 'W/"234-AtzagE4w+pCk2ucRy2Pi2MtHN+s"', 'Strict-Transport-Security': 'max-age=15552000; includeSubDomains', 'x-amzn-trace-id': 'd433f124-d773-413d-a5dc-7f6cc2230cd6-noamzn', 'x-api-call-end': '2025-10-02T13:16:35.079Z', 'x-api-call-start': '2025-10-02T13:16:34.525Z', 'x-api-received': '2025-10-02T13:16:34.520Z', 'x-inference-version': 'v2', 'x-ratelimit': 'false', 'x-ratelimit-limit': '10', 'x-ratelimit-limit-tokens': '3000', 'x-ratelimit-remaining': '19', 'x-ratelimit-remaining-tokens': '3000', 'x-ratelimit-reset': '2', 'x-request-id': 'oDa8EiJ-62bZhn-988479999cfa1bd7', 'Vary': 'Accept-Encoding', 'Server': 'cloudflare', 'alt-svc': 'h3=":443"; ma=86400'}
+2025-10-02 18:46:35 | DEBUG    | get_pronunciation:111 | Raw API response: {
+  "id": "oDa8EiJ-62bZhn-988479999cfa1bd7",
+  "object": "text.completion",
+  "created": 1759410994,
+  "model": "meta-llama/Llama-3-70b-chat-hf",
+  "prompt": [],
+  "choices": [
+    {
+      "text": "```\n{\n  \"word\": \"Table\",\n  \"pronunciation\": \"TAY bul\",\n  \"pronunciation_telugu\": \"\u0c1f\u0c47 \u0c2c\u0c32\u0c4d\"\n}\n```",
+      "finish_reason": "stop",
+      "seed": 17352910196946895000,
+      "logprobs": null,
+      "index": 0
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 170,
+    "completion_tokens": 42,
+    "total_tokens": 212,
+    "cached_tokens": 0
+  }
+}
+2025-10-02 18:46:35 | DEBUG    | get_pronunciation:114 | Extracted output text: ```
+{
+  "word": "Table",
+  "pronunciation": "TAY bul",
+  "pronunciation_telugu": "టే బల్"
+}
+```
+2025-10-02 18:46:35 | DEBUG    | get_pronunciation:117 | Cleaned text: {
+  "word": "Table",
+  "pronunciation": "TAY bul",
+  "pronunciation_telugu": "టే బల్"
+}
+2025-10-02 18:46:35 | INFO     | get_pronunciation:121 | Successfully parsed JSON for word 'Table'
+2025-10-02 18:46:35 | DEBUG    | get_pronunciation:122 | Parsed result: {"word": "Table", "pronunciation": "TAY bul", "pronunciation_telugu": "టే బల్"}
+2025-10-02 18:46:35 | INFO     | <module>:194 | Successful conversion for word 'Table'
+2025-10-02 18:46:35 | INFO     | <module>:208 | Batch processing completed in 1.54 seconds
+2025-10-02 18:46:35 | INFO     | <module>:209 | Results - Successful: 1, Failed: 0
+2025-10-02 18:46:35 | DEBUG    | <module>:213 | Displaying results to user
+2025-10-02 18:46:35 | INFO     | <module>:227 | Generated JSON output - Size: 101 bytes
+2025-10-02 18:46:35 | INFO     | <module>:235 | Download button rendered for user
+2025-10-02 18:46:35 | DEBUG    | <module>:257 | UI rendering complete
+2025-10-02 18:46:35 | INFO     | <module>:258 | Waiting for user interaction...
+2025-10-02 18:49:55 | INFO     | <module>:41 | ================================================================================
+2025-10-02 18:49:55 | INFO     | <module>:42 | Application started
+2025-10-02 18:49:55 | INFO     | <module>:43 | ================================================================================
+2025-10-02 18:49:55 | INFO     | <module>:49 | Configuration loaded - Model: meta-llama/Llama-3-70b-chat-hf
+2025-10-02 18:49:55 | INFO     | <module>:152 | Initializing Streamlit UI
+2025-10-02 18:49:55 | DEBUG    | <module>:161 | Current input in text area: 'elephent'
+2025-10-02 18:49:55 | DEBUG    | <module>:257 | UI rendering complete
+2025-10-02 18:49:55 | INFO     | <module>:258 | Waiting for user interaction...
+2025-10-02 18:49:55 | INFO     | <module>:41 | ================================================================================
+2025-10-02 18:49:55 | INFO     | <module>:42 | Application started
+2025-10-02 18:49:55 | INFO     | <module>:43 | ================================================================================
+2025-10-02 18:49:55 | INFO     | <module>:49 | Configuration loaded - Model: meta-llama/Llama-3-70b-chat-hf
+2025-10-02 18:49:55 | INFO     | <module>:152 | Initializing Streamlit UI
+2025-10-02 18:49:55 | DEBUG    | <module>:161 | Current input in text area: 'elephent'
+2025-10-02 18:49:55 | INFO     | <module>:164 | Convert button clicked
+2025-10-02 18:49:55 | INFO     | <module>:165 | Raw input received: 'elephent'
+2025-10-02 18:49:55 | INFO     | <module>:168 | Parsed 1 words: ['elephent']
+2025-10-02 18:49:55 | INFO     | <module>:178 | Starting batch processing of 1 words
+2025-10-02 18:49:55 | INFO     | <module>:183 | Processing word 1/1: 'elephent'
+2025-10-02 18:49:55 | INFO     | get_pronunciation:62 | Processing word: 'elephent'
+2025-10-02 18:49:55 | DEBUG    | get_pronunciation:84 | Prompt created for word 'elephent' - Length: 687 characters
+2025-10-02 18:49:55 | DEBUG    | get_pronunciation:100 | API Request parameters - max_tokens: 200, temperature: 0
+2025-10-02 18:49:55 | INFO     | get_pronunciation:103 | Sending API request for word: 'elephent'
+2025-10-02 18:49:57 | INFO     | get_pronunciation:106 | API response received - Status code: 200
+2025-10-02 18:49:57 | DEBUG    | get_pronunciation:107 | Response headers: {'Date': 'Thu, 02 Oct 2025 13:19:56 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Content-Encoding': 'gzip', 'CF-Ray': '98847e83cba7c1ac-BOM', 'CF-Cache-Status': 'DYNAMIC', 'Retry-After': '2', 'Access-Control-Allow-Origin': '*', 'ETag': 'W/"24d-b/tO6Yu5EdtIFBJNcCgvf9Cf8/E"', 'Strict-Transport-Security': 'max-age=15552000; includeSubDomains', 'x-amzn-trace-id': '9d68792d-c3dc-46e4-abfc-897a3d3f27c6-noamzn', 'x-api-call-end': '2025-10-02T13:19:56.897Z', 'x-api-call-start': '2025-10-02T13:19:56.086Z', 'x-api-received': '2025-10-02T13:19:56.080Z', 'x-inference-version': 'v2', 'x-ratelimit': 'false', 'x-ratelimit-limit': '10', 'x-ratelimit-limit-tokens': '3000', 'x-ratelimit-remaining': '19', 'x-ratelimit-remaining-tokens': '3000', 'x-ratelimit-reset': '2', 'x-request-id': 'oDa9GdV-62bZhn-98847e83cba7c1ac', 'Vary': 'Accept-Encoding', 'Server': 'cloudflare', 'alt-svc': 'h3=":443"; ma=86400'}
+2025-10-02 18:49:57 | DEBUG    | get_pronunciation:111 | Raw API response: {
+  "id": "oDa9GdV-62bZhn-98847e83cba7c1ac",
+  "object": "text.completion",
+  "created": 1759411196,
+  "model": "meta-llama/Llama-3-70b-chat-hf",
+  "prompt": [],
+  "choices": [
+    {
+      "text": "```\n{\n  \"word\": \"elephent\",\n  \"pronunciation\": \"EL uh FENT\",\n  \"pronunciation_telugu\": \"\u0c0e\u0c32\u0c4d \u0c09\u0c39\u0c4d \u0c2b\u0c46\u0c02\u0c1f\u0c4d\"\n}\n```",
+      "finish_reason": "stop",
+      "seed": 18371871516126630000,
+      "logprobs": null,
+      "index": 0
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 172,
+    "completion_tokens": 57,
+    "total_tokens": 229,
+    "cached_tokens": 0
+  }
+}
+2025-10-02 18:49:57 | DEBUG    | get_pronunciation:114 | Extracted output text: ```
+{
+  "word": "elephent",
+  "pronunciation": "EL uh FENT",
+  "pronunciation_telugu": "ఎల్ ఉహ్ ఫెంట్"
+}
+```
+2025-10-02 18:49:57 | DEBUG    | get_pronunciation:117 | Cleaned text: {
+  "word": "elephent",
+  "pronunciation": "EL uh FENT",
+  "pronunciation_telugu": "ఎల్ ఉహ్ ఫెంట్"
+}
+2025-10-02 18:49:57 | INFO     | get_pronunciation:121 | Successfully parsed JSON for word 'elephent'
+2025-10-02 18:49:57 | DEBUG    | get_pronunciation:122 | Parsed result: {"word": "elephent", "pronunciation": "EL uh FENT", "pronunciation_telugu": "ఎల్ ఉహ్ ఫెంట్"}
+2025-10-02 18:49:57 | INFO     | <module>:194 | Successful conversion for word 'elephent'
+2025-10-02 18:49:57 | INFO     | <module>:208 | Batch processing completed in 1.83 seconds
+2025-10-02 18:49:57 | INFO     | <module>:209 | Results - Successful: 1, Failed: 0
+2025-10-02 18:49:57 | DEBUG    | <module>:213 | Displaying results to user
+2025-10-02 18:49:57 | INFO     | <module>:227 | Generated JSON output - Size: 114 bytes
+2025-10-02 18:49:57 | INFO     | <module>:235 | Download button rendered for user
+2025-10-02 18:49:57 | DEBUG    | <module>:257 | UI rendering complete
+2025-10-02 18:49:57 | INFO     | <module>:258 | Waiting for user interaction...
